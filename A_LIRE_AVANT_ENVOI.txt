@@ -1,0 +1,19 @@
+﻿VERSION DYNAMIQUE - TECH-INNOV DIGIT SERVICE
+
+Envoyez tout le contenu de ce dossier sur GitHub.
+Cette version n'est pas un seul fichier : c'est normal, car elle contient un vrai espace admin et des routes serveur.
+
+Lien public :
+https://votre-site.vercel.app/
+
+Lien admin à garder pour vous seul :
+https://votre-site.vercel.app/admin-techinnov
+
+Variables à ajouter dans Vercel :
+ADMIN_PASSWORD=votre-mot-de-passe-secret
+NEXT_PUBLIC_SITE_URL=https://votre-site.vercel.app
+UPSTASH_REDIS_REST_URL=...
+UPSTASH_REDIS_REST_TOKEN=...
+
+Important :
+Sans UPSTASH_REDIS_REST_URL et UPSTASH_REDIS_REST_TOKEN, les visiteurs ne verront pas toujours les modifications faites dans l'admin.
